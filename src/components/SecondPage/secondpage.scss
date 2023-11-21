@@ -19,8 +19,21 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    margin: 0 0% 2% 0%;
+    margin: 0px 5.55% 2% 5.55%;
     margin-top: 50px;
+    gap: 40px;
+
+
+    @media only screen and (max-width : 700px) {
+      display: block;
+    }
+
+    @media only screen and (min-width : 700px) {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 2%;
+    }
+
   }
 
   .B-img {
@@ -218,7 +231,7 @@
 
 @media only screen and (min-width : 500px) and (max-width : 786px) {
   .S-card-sec {
-    display: grid !important;
+    // display: grid !important;
     grid-template-columns: repeat(2, 1fr);
     gap: 4%;
     margin: 50px !important;
