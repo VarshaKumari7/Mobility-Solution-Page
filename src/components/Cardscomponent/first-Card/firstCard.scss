@@ -1,0 +1,87 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+
+    img {
+        width: 71%;
+        object-fit: contain;
+        // margin: 0 100px;
+        margin: 0 10%;
+        // height: 200px;
+        margin-bottom: 20px;
+    }
+
+    .Product-Consulting {
+        width: 88%;
+        height: 30px;
+        // font-family: Montserrat;
+        font-size: 20px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.4;
+        letter-spacing: normal;
+        text-align: center;
+        color: #0f0a4b;
+    }
+
+    .consulting {
+        height: 30px;
+        // width: 88%;
+        margin-bottom: 10px
+    }
+
+    .Count-on-the-experts {
+        // font-family: Montserrat;
+        font-size: 14px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.5;
+        letter-spacing: normal;
+        text-align: justify;
+        color: #505050;
+        // width: 550px;
+        // height: 130px;
+
+        span {
+            // width: 550px;
+            // height: 130px;
+            display: block;
+            line-height: 21px;
+        }
+    }
+
+}
+
+.card-sec {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    column-gap: 9%;
+    margin: 0 130px 0 130px;
+}
+
+@media only screen and (min-width : 500px) and (max-width : 786px) {
+    .card-sec {
+        column-gap: 3% !important;
+        padding: 10px 19px 0 14px !important;
+        margin: 0px !important;
+
+        .card img {
+            margin-bottom: 0 !important;
+        }
+
+        .Product-Consulting {
+            font-size: 16px !important;
+            line-height: 26px !important;
+        }
+
+        .consulting {
+            margin-bottom: 0 !important;
+            height: unset !important;
+        }
+    }
+}

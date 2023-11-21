@@ -1,0 +1,242 @@
+.second-page {
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) -10%, #ecf0f7);
+
+  .Supporting-Roles {
+    height: 30px;
+    margin: 40px 180px 50px;
+    font-size: 30px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: center;
+    color: #0f0a4b;
+    margin: 30px 15px;
+  }
+
+  .S-card-sec {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 0% 2% 0%;
+    margin-top: 50px;
+  }
+
+  .B-img {
+    width: 100%;
+  }
+
+  .content-375 {
+
+
+
+    .Rectangle-375 {
+      width: 320px;
+      height: 40px;
+      margin: 26px 10px 20px 18px;
+      padding: 0 0 0 20px;
+      border-radius: 10px;
+      border: solid 1px #f8e71c;
+
+      .Onsite {
+        width: 300px;
+        height: 40px;
+        font-size: 18px;
+        font-weight: 600;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 2.22;
+        letter-spacing: normal;
+        color: #f8e71c;
+      }
+    }
+
+    .Reducing-the-service {
+      position: absolute;
+      left: 30px;
+      // top: 2%;
+      margin-top: 10px;
+    }
+
+    .text-inbox img {
+      position: relative;
+      width: 100%;
+
+    }
+  }
+
+  // .GDM_img {
+  //   // position: absolute;
+  //   // left: 13%;
+  //   // // top: 262%;
+  //   // top: 245%;
+  //   // width: 74%;
+  //   position: absolute;
+  //   left: 13%;
+  //   top: 137%;
+  //   width: 74%;
+  // }
+
+  .Global-Delivery-Mode,
+  .msg {
+    font-size: 30px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: center;
+    color: #04aaff;
+  }
+}
+
+// Media Query
+
+@media only screen and (max-width : 500px) {
+  .gd-model-cover-page {
+    display: none;
+  }
+
+  .mobile {
+    background-image: url("../../assests/GDM-bg-375.png");
+    background-repeat: no-repeat;
+    background-size: 100% 98%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    .msg {
+      font-size: 22px !important;
+      left: 18% !important;
+      top: 56% !important;
+      line-height: 30px !important;
+      margin-top: 15.2%;
+    }
+
+    .content-375 {
+      // position: absolute;
+      // top: 57%;
+      color: white;
+      text-align: justify;
+      word-spacing: 1px;
+      font-size: 12px;
+      padding: 0px 30px;
+
+      .Rectangle-375 {
+        width: 84% !important;
+        margin: 26px 1px 20px 1px !important;
+        padding: -1px !important;
+
+      }
+
+      .GDM_img {
+        margin-top: 27px;
+        margin-bottom: 20px;
+        width: 100%;
+      }
+    }
+
+    .small-text-container {
+      width: 86%;
+      margin-bottom: 28.8%;
+      padding: 0px 30px;
+
+      .text-inbox {
+        margin-bottom: 39px;
+        display: flex;
+        align-items: center;
+      }
+
+      .text-inbox img {
+        width: 85%;
+        position: absolute;
+
+      }
+
+      .Reducing-the-Service {
+        font-size: 9px;
+        color: white;
+        position: relative;
+        left: 13%;
+      }
+    }
+
+
+  }
+}
+
+
+@media only screen and (min-width : 500px) {
+  .G-D-Model {
+    margin-top: 5%;
+  }
+
+  .mobile {
+    display: none;
+  }
+
+  .gd-model-cover-page {
+    background-image: url("../../assests/GDM-bg-1440.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    .GMD {
+      margin-left: 12.5%;
+      margin-right: 12.5%;
+      margin-bottom: 12%;
+    }
+
+    .gdmodel {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      .spanmsg {
+        margin-bottom: 3%;
+      }
+
+      .GDM-desktop {
+        width: 100% !important;
+      }
+    }
+
+
+  }
+
+  .GDM_img,
+  .B-img-375,
+  .content-375,
+
+  .third-page .third-page-img2,
+  .gradient-copy,
+  .lower-bg-375 {
+    display: none !important;
+  }
+}
+
+@media only screen and (min-width : 500px) and (max-width : 786px) {
+  .S-card-sec {
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4%;
+    margin: 50px !important;
+
+    .S-card {
+      width: 100% !important;
+    }
+  }
+
+  .lower-bg-1440-plain {
+    display: none;
+  }
+
+
+}
+
+@media only screen and (min-width : 1024px) {
+  .spanmsg {
+    margin-top: 2% !important;
+  }
+}

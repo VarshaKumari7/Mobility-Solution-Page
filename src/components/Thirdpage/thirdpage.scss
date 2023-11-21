@@ -1,0 +1,408 @@
+.third-page {
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) -10%, #ecf0f7);
+
+
+    .Our-Plan-Process {
+        margin: 60px 0px 50px;
+        // font-family: Montserrat;
+        font-size: 30px;
+        font-weight: 600;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.33;
+        letter-spacing: normal;
+        text-align: center;
+        color: #0f0a4b;
+    }
+
+    .third-page-img1,
+    .third-page-img2,
+    .third-page-img-state,
+    .third-page-img {
+        width: 100%;
+    }
+
+    .get-started-containers {
+        background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) -10%, #e7ecf4);
+
+        .get-started-global-container {
+            display: flex;
+            padding-bottom: 27px;
+            padding-top: 21px;
+            margin-left: 12.5%;
+            margin-right: 12.5%;
+
+            @media only screen and (min-width:500px) and (max-width : 1024px) {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+            }
+
+
+
+            .get-started-sub-container img {
+                height: 43vh;
+                // margin-left: 62px;
+                margin-left: 10px;
+            }
+
+            .Contracts {
+                background-image: url("../../assests/PlanProcess1.webp");
+            }
+
+            .Knowledge-Transfer,
+            .Process-Setup {
+                background-image: url("../../assests/PlanProcess3.webp");
+            }
+
+            .Team-Setup,
+            .Infrastructure-Setup {
+                background-image: url("../../assests/PlanProcess2.webp");
+            }
+
+
+
+            .get-started-text {
+                background-size: 100% 100%;
+                padding: 10px 15px;
+                color: white;
+                font-size: 14px;
+                font-weight: 600;
+                line-height: 40px;
+                background-repeat: no-repeat;
+                display: block;
+            }
+
+            .get-started-list-text {
+                list-style: none;
+                font-size: 12px;
+                line-height: 24px;
+                color: #0f0a4b;
+                margin-left: -24px;
+            }
+        }
+    }
+
+    .gradient-copy {
+        // width: 375px;
+        // height: 1116px;
+        margin: 9px 0 0;
+        padding: 26px 27px 31px 17px;
+        background-image: linear-gradient(to bottom, #e0e0e073 -10%, #e7ecf4);
+
+
+        .new-content img {
+            width: 320px;
+            height: 40px;
+            margin: 0 0 12px 11px;
+            // object-fit: contain;
+        }
+
+        .-NDA-and-IP-Protect {
+            margin: 12px 0 10px 11px;
+            // font-family: Montserrat;
+            font-size: 12px;
+            font-weight: normal;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 2.33;
+            letter-spacing: normal;
+            color: #0f0a4b;
+            display: flex;
+            text-align: justify;
+
+
+        }
+
+        .get-started img {
+            width: 100%;
+            height: 120px;
+            margin: 216px 1px 0 0;
+            object-fit: contain;
+        }
+    }
+
+    .third-card-sec {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        justify-items: center;
+        gap: 2%;
+
+        @media only screen and (max-width: 500px) {
+            display: block;
+        }
+    }
+
+    .GET-AHEAD {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Get-ahead-in-your-In {
+        font-size: 36px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 50px;
+        letter-spacing: 2px;
+        text-align: center;
+        color: #f8e71c;
+        margin-top: 5.9%;
+        align-items: center;
+        display: unset;
+        margin-left: 53%;
+        margin-top: 7.9%;
+        margin-right: 9.47%;
+
+        @media only screen and (max-width: 500px) {
+            margin-right: 10.86%;
+            font-size: 29px;
+            font-weight: 600;
+            margin-top: 140.55%;
+            margin-left: 10.86%;
+        }
+
+    }
+
+    .text-style-1 {
+        font-family: MontserratRoman-Bold;
+        font-weight: 700;
+        color: #fff;
+    }
+
+    .text-style-2 {
+        // font-family: Montserrat-Light; 
+        font-weight: 300;
+        color: #fff;
+    }
+
+    .Rectangle-2-Copy-10 {
+        width: 40%;
+        margin-top: 5%;
+        padding: 14px 1px;
+        border-radius: 25px;
+        background-color: #f8e71c;
+        text-align: center;
+        margin-bottom: 11.45%;
+        margin-right: 15.41%;
+        margin-left: 60.27%;
+
+    }
+
+    .language-div {
+
+        padding: 30px 0px 59px;
+        background-image: linear-gradient(to right, #04aaff 0%, #227deb 53%, #04aaff 101%);
+
+        // @media only screen and (max-width : 1024px) {
+        //     padding-bottom: 59px;
+        // }
+
+        .Advanced-Technologie {
+            font-size: 30px;
+            font-weight: 600;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.33;
+            letter-spacing: normal;
+            text-align: center;
+            color: #fff;
+            margin: 0px 9.02% 0px;
+        }
+
+        .language-img {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            margin-left: 19.7%;
+            margin-top: 20px;
+            margin-right: 19.7%;
+
+            @media only screen and (max-width : 900px) {
+                display: block;
+                margin-left: 29px;
+                margin-top: 20px;
+            }
+        }
+
+        .language-img img {
+            width: 150px;
+            height: 150px;
+            // margin: 0 30px 0 0;
+            object-fit: contain;
+        }
+
+        // .python-img {
+        //     margin: 20px 15px 50px 19.79%;
+        // }
+
+        // .Group-14-Copy {
+        //     margin: 20px 30px 50px 15px;
+        // }
+
+        // .Kotlin-img {
+        //     margin: 20px 19.79% 50px 15px;
+        // }
+
+    }
+
+
+    .Get-In-Touch {
+        font-family: unset;
+        font-size: 16px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: center;
+        color: #0b0e55;
+        cursor: pointer;
+    }
+
+    .End-of-the-page {
+        background-color: #131313;
+        padding: 25px 28% 18px 28%;
+        text-align: center;
+
+        .Copyright-2010-202 {
+            width: 350px;
+            height: 30px;
+            font-size: 12px;
+            font-weight: normal;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1;
+            letter-spacing: normal;
+            text-align: center;
+            color: #fff;
+        }
+    }
+
+    .Thirdpage-footer-section {
+        width: 100%;
+        height: 100px;
+        background-color: #0f0a4b;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+
+        .-Member-margin {
+            margin-left: 12%;
+            margin-right: 34px;
+
+        }
+
+        .-Member-margin-right {
+            margin-right: 12%;
+            margin-left: 34px;
+
+        }
+
+        .-Member-margin,
+        .-Member-margin-right {
+            font-size: 14px;
+            font-weight: 500;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            text-align: center;
+            color: #fff;
+            // padding: 20px 0px;
+
+        }
+
+        .-Certified-BI-Exp {
+            font-size: 14px;
+            font-weight: 500;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            text-align: center;
+            color: #fff;
+            padding: 20px 0px;
+            margin-left: 34px;
+            margin-right: 34px;
+
+            .Group-14-Copy {
+                height: 52px;
+            }
+
+
+        }
+
+    }
+}
+
+
+@media only screen and (max-width : 500px) {
+    .mobile-last-section {
+        background-image: url("../../assests/lower-bg-375.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100% 100%;
+    }
+
+    .get-started-containers {
+        display: none;
+    }
+}
+
+@media only screen and (min-width:500px) and (max-width:800px) {
+    .third-page-img-state {
+        height: 31vh !important;
+        width: 100% !important;
+        margin-top: 5%;
+    }
+
+    .Thirdpage-footer-section {
+        overflow-x: scroll;
+        justify-content: unset !important;
+    }
+
+}
+
+@media only screen and (min-width: 500px) and (max-width: 1020px) {
+    .last-section {
+        background-image: url("../../assests/lower-bg-786px.png");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 1050px) {
+    .Thirdpage-footer-section {
+
+        .-Certified-BI-Exp,
+        .-Member-margin-right,
+        .-Member-margin {
+            font-size: 12px !important;
+        }
+    }
+}
+
+@media only screen and (min-width: 1020px) {
+    .get-started-container {
+        width: 250px;
+
+    }
+
+    .lower-bg-1440 {
+        display: none;
+    }
+
+    .last-section {
+        background-image: url("../../assests/lower-bg-1440.png");
+        background-repeat: no-repeat;
+        // background-position: center;
+        background-size: 100% 100%;
+
+    }
+}
+
+.modal-open {
+    overflow: hidden;
+}
