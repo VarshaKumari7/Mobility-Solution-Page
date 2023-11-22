@@ -5,21 +5,21 @@ export const secondCardData = [
     content: [
       {
         checkbox: require("../assests/check-box-with-check-sign-copy-14.webp"),
-        text: "NDedicated Audit/Quality Control Team",
+        text: "iPhone App Development",
       },
 
       {
         checkbox: require("../assests/check-box-with-check-sign-copy-14.webp"),
-        text: "Audits by Project Managers",
+        text: "iPad App Development",
       },
 
       {
         checkbox: require("../assests/check-box-with-check-sign-copy-14.webp"),
-        text: "Peer Audits by Annotators",
+        text: "Apple Watch App Development",
       },
       {
         checkbox: require("../assests/check-box-with-check-sign-copy-14.webp"),
-        text: "Self Audit",
+        text: "Apple TV App Development",
       },
     ],
   },
@@ -29,21 +29,21 @@ export const secondCardData = [
     content: [
       {
         checkbox: require("../assests/check-box-with-check-sign-copy-14.webp"),
-        text: "NDedicated Audit/Quality Control Team",
+        text: "Android Mobile App Development",
       },
 
       {
         checkbox: require("../assests/check-box-with-check-sign-copy-14.webp"),
-        text: "Audits by Project Managers",
+        text: "Android TV App Development",
       },
 
       {
         checkbox: require("../assests/check-box-with-check-sign-copy-14.webp"),
-        text: "Peer Audits by Annotators",
+        text: "Android Tablet App Development",
       },
       {
         checkbox: require("../assests/check-box-with-check-sign-copy-14.webp"),
-        text: "Self Audit",
+        text: "Android Wear App Development",
       },
     ],
   },
@@ -53,21 +53,25 @@ export const secondCardData = [
     content: [
       {
         checkbox: require("../assests/check-box-with-check-sign-copy-14.webp"),
-        text: "NDedicated Audit/Quality Control Team",
+        text: "Hybrid Mobile App Development",
       },
 
       {
         checkbox: require("../assests/check-box-with-check-sign-copy-14.webp"),
-        text: "Audits by Project Managers",
+        text: "Hybrid Tablet App Development",
       },
 
       {
         checkbox: require("../assests/check-box-with-check-sign-copy-14.webp"),
-        text: "Peer Audits by Annotators",
+        text: "Hybrid TV App Development",
       },
       {
         checkbox: require("../assests/check-box-with-check-sign-copy-14.webp"),
-        text: "Self Audit",
+        text: "Cross-browser Web App Development",
+      },
+      {
+        checkbox: require("../assests/check-box-with-check-sign-copy-14.webp"),
+        text: "Offline Web App Developmentt",
       },
     ],
   },

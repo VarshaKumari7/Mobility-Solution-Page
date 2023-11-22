@@ -46,6 +46,13 @@
         // width: 550px;
         // height: 130px;
 
+        @media only screen and (min-width: 500px) and (max-width: 1020px) {
+            font-size: 12px;
+            padding: 0px 10px 20px;
+            // height: 140px !important;
+            line-height: 16px;
+        }
+
         span {
             // width: 550px;
             // height: 130px;

@@ -1,8 +1,9 @@
 .second-page {
   background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) -10%, #ecf0f7);
+  // padding-bottom: 32px;
 
   .Supporting-Roles {
-    height: 30px;
+    // height: 30px;
     margin: 40px 180px 50px;
     font-size: 30px;
     font-weight: 600;
@@ -22,6 +23,12 @@
     margin: 0px 5.55% 2% 5.55%;
     margin-top: 50px;
     gap: 40px;
+
+    @media only screen and (min-width : 500px) and (max-width : 786px) {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 4%;
+      margin: 50px 50px 0px;
+    }
 
 
     @media only screen and (max-width : 700px) {
@@ -114,7 +121,7 @@
   .mobile {
     background-image: url("../../assests/GDM-bg-375.png");
     background-repeat: no-repeat;
-    background-size: 100% 98%;
+    background-size: 100% 100%;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -230,16 +237,12 @@
 }
 
 @media only screen and (min-width : 500px) and (max-width : 786px) {
-  .S-card-sec {
-    // display: grid !important;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 4%;
-    margin: 50px !important;
+  // .S-card-sec {
 
-    .S-card {
-      width: 100% !important;
-    }
-  }
+  //   .S-card {
+  //     width: 100% !important;
+  //   }
+  // }
 
   .lower-bg-1440-plain {
     display: none;
