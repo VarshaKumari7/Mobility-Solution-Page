@@ -235,6 +235,11 @@
             margin-top: 20px;
             margin-right: 19.7%;
 
+            @media only screen and (max-width : 500px) {
+                margin-left: 6.7%;
+                margin-right: 7.7%;
+            }
+
             @media only screen and (max-width : 900px) {
                 display: block;
                 margin-left: 29px;
@@ -247,6 +252,12 @@
             height: 150px;
             // margin: 0 30px 0 0;
             object-fit: contain;
+
+            @media only screen and (max-width : 500px) {
+                width: 100px;
+                height: 100px;
+            }
+
         }
 
         // .python-img {
