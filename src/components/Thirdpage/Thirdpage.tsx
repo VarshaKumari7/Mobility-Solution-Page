@@ -301,10 +301,13 @@ const Thirdpage = () => {
                 </span>
                 <div className="Rectangle-2-Copy-10">
                   <span className="Get-In-Touch" onClick={getInTouch}>
-                    Try Free Pilot For 15 Days
+                    Get In Touch
                   </span>
                   {open && (
-                    <TryItFree open={open} handleClose={() => setOpen(false)} />
+                    <StayConncetedWithUs
+                      open={open}
+                      handleClose={() => setOpen(false)}
+                    />
                   )}
                 </div>
               </div>

@@ -4,18 +4,18 @@ import "../HeaderSection/header.scss";
 import TryItFree from "../Popup/Try-it-free";
 
 const Header = () => {
-  // const [open, setOpen] = useState(false);
-  // const talkToAnExpert = () => {
-  //   setOpen(true);
-  //   console.log("Talk To An Expert");
-  // };
-  // useEffect(() => {
-  //   if (open) {
-  //     document.body.classList.add("modal-open");
-  //   } else {
-  //     document.body.classList.remove("modal-open");
-  //   }
-  // }, [open]);
+  const [open, setOpen] = useState(false);
+  const talkToAnExpert = () => {
+    setOpen(true);
+    console.log("Talk To An Expert");
+  };
+  useEffect(() => {
+    if (open) {
+      document.body.classList.add("modal-open");
+    } else {
+      document.body.classList.remove("modal-open");
+    }
+  }, [open]);
   return (
     <>
       <div className="-header">
@@ -29,9 +29,11 @@ const Header = () => {
             <span>+1 650 763 8001</span>
           </div>
           <div className="Rectangle">
-            <p className="try-free">TRY IT FREE</p>
+            <p className="try-free" onClick={talkToAnExpert}>
+              TRY IT FREE
+            </p>
           </div>
-          {/* {open && <TryItFree open={open} handleClose={() => setOpen(false)} />} */}
+          {open && <TryItFree open={open} handleClose={() => setOpen(false)} />}
         </div>
       </div>
       <div>
