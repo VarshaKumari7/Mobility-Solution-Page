@@ -8,6 +8,12 @@
   background-color: #fff;
   height: 470px;
 
+  @media only screen and (min-width : 500px) and (max-width : 786px) {
+    .S-card {
+      width: 100%;
+    }
+  }
+
   img {
     width: 100%;
     object-fit: contain;

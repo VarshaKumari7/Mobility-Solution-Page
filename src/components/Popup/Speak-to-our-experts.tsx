@@ -157,7 +157,10 @@ const SpeakToOurExperts = ({ open, handleClose }: any) => {
                       type="submit"
                       className="btn btn-free Submit"
                       id="btnSubmit"
-                      onClick={submitHandler}
+                      onClick={(e) => {
+                        e.preventDefault();
+                        submitHandler();
+                      }}
                     >
                       Submit
                     </button>

@@ -4,7 +4,7 @@ import "../SecondPage/secondpage.scss";
 
 const Secondpage = () => {
   return (
-    <div className="second-page">
+    <div className="second-page" style={{ paddingBottom: "32px" }}>
       <div className="Supporting-Roles">
         Wide Array Of Our Mobility Solutions
       </div>

@@ -46,14 +46,6 @@ const Thirdpage = () => {
         <div className="get-started-containers">
           <div className="get-started-global-container">
             <div className="get-started-container">
-              {/* <img
-                className="get-started-image"
-                src={require("../../img/PlanProcess1.webp")}
-              /> */}
-              {/* <img
-                className="get-started-image-mobile"
-                src="./assests/PlanProcessMobile1.webp"
-              /> */}
               <span className="get-started-text Contracts">Contracts</span>
               <ul className="get-started-list-text">
                 <li className="get-started-one-text">NDA and IP Protection</li>
@@ -65,14 +57,6 @@ const Thirdpage = () => {
             </div>
 
             <div className="get-started-container ">
-              {/* <img
-                className="get-started-image"
-                src={require("../../img/PlanProcess2.webp")}
-              /> */}
-              {/* <img
-                className="get-started-image-mobile"
-                src="./assests/PlanProcessMobile2.webp"
-              /> */}
               <span className="get-started-text Team-Setup">Team Setup</span>
               <ul className="get-started-list-text">
                 <li className="get-started-one-text">
@@ -86,14 +70,6 @@ const Thirdpage = () => {
             </div>
 
             <div className="get-started-container">
-              {/* <img
-                className="get-started-image"
-                src={require("../../img/PlanProcess1.webp")}
-              /> */}
-              {/* <img
-                className="get-started-image-mobile"
-                src="./assests/PlanProcessMobile3.webp"
-              /> */}
               <span className="get-started-text Knowledge-Transfer">
                 Knowledge Transfer
               </span>
@@ -110,14 +86,6 @@ const Thirdpage = () => {
             </div>
 
             <div className="get-started-container">
-              {/* <img
-                className="get-started-image"
-                src={require("../../img/PlanProcess2.webp")}
-              /> */}
-              {/* <img
-                className="get-started-image-mobile"
-                src="./assests/PlanProcessMobile4.webp"
-              /> */}
               <span className="get-started-text Infrastructure-Setup">
                 Infrastructure Setup
               </span>
@@ -133,14 +101,6 @@ const Thirdpage = () => {
               </ul>
             </div>
             <div className="get-started-container">
-              {/* <img
-                className="get-started-image"
-                src={require("../../img/PlanProcess1.webp")}
-              /> */}
-              {/* <img
-                className="get-started-image-mobile"
-                src="./assests/PlanProcessMobile5.webp"
-              /> */}
               <span className="get-started-text Process-Setup">
                 Process Setup
               </span>
@@ -166,12 +126,6 @@ const Thirdpage = () => {
                 className="get-started-sub-image"
               />
             </div>
-            {/* <div className="get-started-sub-container-mobile">
-              <img
-                src="./assests/PlanProcessMobileBottom.webp"
-                className="get-started-sub-image-mobile"
-              />
-            </div> */}
           </div>
         </div>
         <div className="gradient-copy">
@@ -293,18 +247,17 @@ const Thirdpage = () => {
                   <span className="text-style-1">
                     Amplify Your Brand Credibility With Performance Driven
                   </span>
-                  {/* <span className="text-style-2">
-                    {" "}
-                    & Take Your Enterprise to a more
-                  </span> */}
                   <span> End-to-End Mobility Solutions</span>
                 </span>
                 <div className="Rectangle-2-Copy-10">
                   <span className="Get-In-Touch" onClick={getInTouch}>
-                    Try Free Pilot For 15 Days
+                    Get In Touch
                   </span>
                   {open && (
-                    <TryItFree open={open} handleClose={() => setOpen(false)} />
+                    <StayConncetedWithUs
+                      open={open}
+                      handleClose={() => setOpen(false)}
+                    />
                   )}
                 </div>
               </div>

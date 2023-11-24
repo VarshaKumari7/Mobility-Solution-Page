@@ -1,11 +1,15 @@
 .man-holding-technology-gear-wheel-interface {
     background-blend-mode: overlay, multiply;
     background-image: url("../../assests/background-img.png");
-    // height: 500px;
-    height: 62vh;
+    height: 500px;
+    // height: 62vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+
+    @media only screen and (max-width : 500px) {
+        height: 300px;
+    }
 
     .front {
         display: flex;
@@ -13,9 +17,6 @@
         align-items: center;
 
         .Build-Future-Proof-S {
-            // width: 65%;
-            // height: 150px;
-            // margin: 0 0 79px;
             font-size: 48px;
             font-weight: 800;
             font-stretch: normal;
@@ -24,14 +25,17 @@
             letter-spacing: normal;
             text-align: center;
             color: #fff;
-            // left: 19%;
-            // margin-top: -383px;
-            // position: absolute;
-            padding-left: 12%;
-            padding-right: 12%;
-            // display: block;
-            padding-top: 10%;
+            padding-left: 8%;
+            padding-right: 8%;
+            padding-top: 8%;
 
+            @media only screen and (max-width:500px) {
+                font-size: 20px;
+                padding-top: 53px;
+                padding-left: 13px;
+                padding-right: 12px;
+                line-height: 33px;
+            }
 
         }
 
@@ -41,9 +45,6 @@
 
         .Our-Experts {
             margin-top: 4%;
-            // padding-left: 37.84%;
-            // padding-right: 37.84%;
-
 
             .Consult-With-Our-Exp {
                 width: 350px;
@@ -60,7 +61,21 @@
                 border-radius: 30px;
                 padding: 15px 31px;
                 cursor: pointer;
+
+                @media only screen and (max-width : 280px) {
+                    font-size: 12px;
+
+                }
+
+                @media only screen and (min-width : 281px) and (max-width: 500px) {
+                    font-size: 16px;
+                    border-radius: 30px;
+                    padding: 7px 31px;
+                }
             }
+
+
+
         }
     }
 }
@@ -153,7 +168,8 @@
 
 @media only screen and (min-width:500px) and (max-width:800px) {
     .man-holding-technology-gear-wheel-interface {
-        height: 42vh !important;
+        // height: 46vh !important;
+        height: 300px;
 
         .Build-Future-Proof-S {
             padding-left: 5.47% !important;
@@ -187,7 +203,8 @@
 
 @media only screen and (min-width: 800px) and (max-width: 1050px) {
     .man-holding-technology-gear-wheel-interface {
-        height: 44vh !important;
+        // height: 44vh !important;
+        height: 300px;
 
         .Build-Future-Proof-S {
             padding-left: 10% !important;
