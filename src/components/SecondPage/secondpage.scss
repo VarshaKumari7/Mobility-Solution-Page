@@ -1,6 +1,5 @@
 .second-page {
   background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) -10%, #ecf0f7);
-  // padding-bottom: 32px;
 
   .Supporting-Roles {
     // height: 30px;
@@ -35,7 +34,7 @@
       display: block;
     }
 
-    @media only screen and (min-width : 700px) {
+    @media only screen and (min-width : 700px) and (max-width : 1024px) {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
       gap: 2%;
@@ -121,7 +120,7 @@
   .mobile {
     background-image: url("../../assests/GDM-bg-375.png");
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: 100% 101%;
     display: flex;
     align-items: center;
     flex-direction: column;

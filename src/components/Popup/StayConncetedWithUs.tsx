@@ -17,17 +17,18 @@ const StayConncetedWithUs = ({ handleClose, open }: any) => {
 
   const submitHandler = () => {
     console.log("Form Data:", formData);
-    setFormData({
-      name: "",
-      email: "",
-      company: "",
-    });
+    // setFormData({
+    //   name: "",
+    //   email: "",
+    //   company: "",
+    // });
 
     setOpenThank(true);
   };
 
   const handleCloseThank = () => {
     setOpenThank(false);
+    handleClose();
   };
 
   const portalContainer = document.getElementById("portalModalDiv");
@@ -52,7 +53,14 @@ const StayConncetedWithUs = ({ handleClose, open }: any) => {
               </button>
             </div>
             <div className="modal-body connected-body">
-              <form action="javascript: void(o)" id="connectionForm">
+              <form
+                action="javascript: void(o)"
+                onSubmit={(e) => {
+                  e.preventDefault();
+                  submitHandler();
+                }}
+                id="connectionForm"
+              >
                 <input
                   value={formData.name}
                   type="text"
@@ -112,16 +120,20 @@ const StayConncetedWithUs = ({ handleClose, open }: any) => {
                     className="btn btn-free Submit"
                     type="submit"
                     id="connectionFormSubmitButton"
-                    onClick={submitHandler}
+                    // onClick={submitHandler}
+                    // onClick={() => {
+                    //   submitHandler();
+                    //   handleClose();
+                    // }}
                   >
                     Continue
                   </button>
-                  {/* {open && (
+                  {openThank && (
                     <ThankYou
                       openThank={openThank}
                       handleCloseThank={handleCloseThank}
                     />
-                  )} */}
+                  )}
                 </div>
               </form>
             </div>

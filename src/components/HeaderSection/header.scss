@@ -3,21 +3,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    // height: 27px;
-
-    // img.Bitmap-Copy-5 {
-
-    //     width: 114px;
-    //     height: 40px;
-    //     object-fit: contain;
-    //     margin: 15px 0 15px 85px;
-
-    // }
 
     .logo img {
         height: 40px;
         width: 114px;
-        // margin: 20px 85px;
         margin: 20px 0px 20px 85px;
 
         @media screen and (max-width: 500px) {
@@ -32,8 +21,6 @@
         display: flex;
 
         .cont {
-            // margin-right: 17px;
-            // height: 0px;
             margin-right: 17px;
             height: 0px;
             display: flex;
@@ -54,8 +41,6 @@
         }
 
         .Rectangle {
-            // height: 40px;
-            // border-radius: 20px;
 
             .try-free {
                 background-color: #f8e71c;
